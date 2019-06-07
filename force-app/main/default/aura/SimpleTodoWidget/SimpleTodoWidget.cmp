@@ -1,0 +1,5 @@
+<aura:component access="global" implements="flexipage:availableForAllPageTypes" >
+    <div style="height: 400px;" class="slds-card slds-card_boundary">
+    	<lightning:container src="{!$Resource.SfVueTodoWidget + '/index.html'}"/>
+    </div>
+</aura:component>
