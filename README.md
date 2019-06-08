@@ -55,4 +55,5 @@ Push your change to your SF Environment
 
 ### 6. Resources
 **[Lightning Container Guidance](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/container_overview.htm)**
+
 **[Salesforce Lightning application with Vue.js and Webpack](https://medium.com/@ennoucas/salesforce-lightning-application-with-vue-js-and-webpack-part-2-af0071347274)**
