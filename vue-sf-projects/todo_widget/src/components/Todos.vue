@@ -90,6 +90,7 @@ export default {
   .is-complete {
     background: #35495e;
     color: white;
+    text-decoration: line-through;
   }
 
   @media (max-width: 500px) {
