@@ -15,13 +15,11 @@ Create .env file, you can copy the .env.sample for the template, and change the 
 Run `npm run serve` to check whether it works or not
 
 ### Deploy to Prod
-1. Run `npm run build`
+1. Run `npm run update_project`
 
-2. Copy all content in `dist/` folder to `vue_salesforce_widget/force-app/main/default/staticresources/SfVueTodoWidget`
+2. Authenticate with your Sf Org `sfdx force:auth:web:loging`, login via browser
 
-3. Authenticate with your Sf Org `sfdx force:auth:web:loging`, login via browser
-
-4. Once you've logged in Run `sfdx force:source:deploy -x manifest/package.xml`
+3. Once you've logged in Run `sfdx force:source:deploy -x manifest/package.xml`
 
 ### WIP
 - Add Unit Test

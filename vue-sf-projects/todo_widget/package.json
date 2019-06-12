@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "update_project": "vue-cli-service build && rm -rf ../../force-app/main/default/staticresources/SfVueTodoWidget/* && cp -r dist/* -t ../../force-app/main/default/staticresources/SfVueTodoWidget/",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
