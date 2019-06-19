@@ -1,7 +1,7 @@
 ## Vue-Salesforce Widget Scaffold
 
 ### 1. Introduction
-This is a repository to show how vue.js framework used to build a salesforce widget. By using lighting container, we can embed the static resource (assets that developed in vue) to the Lightning component. The `todo_widget` directory is a sample of how vue.js can be use to develop the widget. You can create a new project by using this scaffold project (details in section 4.)
+This is a repository to show how vue.js framework used to build a salesforce widget, but you can use any javascript library to create your own widget (not limited to vue only). By using lighting container, we can embed the static resource (assets that developed in vue) to the Lightning component. The `todo_widget` directory is a sample of how vue.js can be use to develop the widget. You can create a new project by using this scaffold project (details in section 4.)
 
 ### 2. Prerequisite
 - You have installed `sfdx` to pull the metadata from your Salesforce org
